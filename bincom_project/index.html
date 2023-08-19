@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header"><h1>Polling Unit Result</h1></div>
+    
+    <select name="" id="show_polling" class="custom-select" placeholder="Select Local Government">
+      <div id="show_local"></div>
+    </select>
+    <select name="" id="show_poll" class="custom-select" hidden =true></select>
+    <div class="details">
+      <table id="show_poll_result" class="custom-table">
+        <thead>
+          <tr>
+            <th>polling unit</th>
+            <th>party name</th>
+            <th>party score</th>
+
+           </tr>
+        </thead>
+        <tbody class="show_lg_result">
+         
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+
+<script src="./src/jquery-1.10.2.min.js"></script>
+<script src="./src/index.js"></script>
+</body>
+</html>
